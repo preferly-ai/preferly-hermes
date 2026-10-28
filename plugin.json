@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "preferly",
+  "version": "0.1.0",
+  "description": "Check whether AI crawlers can reach a website (robots.txt rules for 13 AI crawlers, bot walls, llms.txt, structured data), and find out what AI says about a business with Preferly's free AI visibility check.",
+  "author": {
+    "name": "Preferly",
+    "email": "hello@preferly.ai",
+    "url": "https://www.preferly.ai"
+  },
+  "homepage": "https://www.preferly.ai",
+  "repository": "https://github.com/preferly-ai/preferly-hermes",
+  "license": "MIT",
+  "keywords": ["ai visibility audit", "ai crawlers", "robots.txt", "gptbot", "llms.txt", "aeo", "geo", "website"]
+}
