@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "preferly",
-  "version": "0.1.0",
-  "description": "Check whether AI crawlers can reach a website (robots.txt rules for 13 AI crawlers, bot walls, llms.txt, structured data), and find out what AI says about a business with Preferly's free AI visibility check.",
+  "version": "0.2.0",
+  "description": "Preferly's six free MCP tools for AI visibility: AI crawler access, AI robots.txt lines, llms.txt, business structured data, readable business info, and a quick AI visibility check. Hosted Streamable HTTP MCP (no sign-in) plus one skill.",
   "author": {
     "name": "Preferly",
     "email": "hello@preferly.ai",
@@ -11,5 +11,5 @@
   "homepage": "https://www.preferly.ai",
   "repository": "https://github.com/preferly-ai/preferly-hermes",
   "license": "MIT",
-  "keywords": ["ai visibility audit", "ai crawlers", "robots.txt", "gptbot", "llms.txt", "aeo", "geo", "website"]
+  "keywords": ["ai visibility audit", "ai crawlers", "robots.txt", "gptbot", "llms.txt", "schema.org", "aeo", "geo", "website", "mcp"]
 }
