@@ -12,7 +12,7 @@ This package is a portable [Agent Plugins v1](https://agent-plugins.org) package
 
   | Tool | Inputs | What it does |
   |---|---|---|
-  | `check_ai_crawler_access` | `website` (required) | robots.txt allow/block for 13 AI crawlers (including GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended) with the deciding rule; whether the homepage loads or shows a bot check; whether `/llms.txt` exists; schema.org types on the homepage |
+  | `check_ai_crawler_access` | `website` (required) | robots.txt allow/block for 10+ AI crawlers (including GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended) with the deciding rule; whether the homepage loads or shows a bot check; whether `/llms.txt` exists; schema.org types on the homepage |
   | `generate_ai_robots_txt` | `allow_search` (default true), `allow_training` (default false), optional `disallow_paths[]` | robots.txt lines that let AI search/assistant crawlers in and keep training crawlers out (or any mix). Fetches nothing; needs no website |
   | `check_llms_txt` | `website` (required) | Whether the site publishes `/llms.txt`, size and title, and format problems vs llmstxt.org |
   | `check_business_schema` | `website` (required) | Business type and fields in homepage JSON-LD (present, missing, or off) |
