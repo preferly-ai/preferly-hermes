@@ -18,7 +18,7 @@ The Preferly MCP server (`preferly`) lists **exactly these six** read-only tools
 
 **Call once per site:** {"website": "example.com"}
 
-It reads robots.txt, the homepage and `/llms.txt`. It reports which of 13 AI crawlers are allowed or blocked and the deciding rule; whether the homepage loads or shows a bot check; whether llms.txt exists; and schema.org types on the homepage.
+It reads robots.txt, the homepage and `/llms.txt`. It reports which of 10+ AI crawlers are allowed or blocked and the deciding rule; whether the homepage loads or shows a bot check; whether llms.txt exists; and schema.org types on the homepage.
 
 Lead with the plain answer, then the crawler table. Keep the tool's wording; don't guess beyond it. Blocking training crawlers can be intentional; blocking search/user-fetch crawlers (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot, …) keeps the site out of AI answers — say which kind each blocked crawler is.
 
